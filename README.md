@@ -1,2 +1,2 @@
 # Pd-Kujutuvastus
-Kujutuvastustööriistad pure Data programmeerimiskeskkonnas
+Kujutuvastustööriistad Pure Data programmeerimiskeskkonnas
