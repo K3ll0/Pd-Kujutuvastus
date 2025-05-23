@@ -1,2 +1,2 @@
-# Pd-Kujutuvastus
+# Pd kujutuvastustööriistad
 Kujutuvastustööriistad Pure Data programmeerimiskeskkonnas
