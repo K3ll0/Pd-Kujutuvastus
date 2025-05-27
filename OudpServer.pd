@@ -1,0 +1,17 @@
+#N canvas 151 475 450 300 12;
+#X obj 294 247 netsend -u -b;
+#X msg 325 208 1 2 3;
+#X listbox 496 207 11 0 0 0 - - - 0;
+#X obj 496 237 bng 19 250 50 0 empty empty empty 0 -10 0 12 #dfdfdf #000000 #000000;
+#X msg 294 122 connect localhost 3007;
+#X obj 496 169 netreceive -u -b 3006;
+#X msg 312 167 disconnect;
+#X text 390 200 send back to sender, f 9;
+#X text 368 207 <--;
+#X text 462 115 connect to port to talk back to sender, f 19;
+#X text 312 87 192.168.10.143;
+#X connect 1 0 0 0;
+#X connect 2 0 3 0;
+#X connect 4 0 0 0;
+#X connect 5 0 2 0;
+#X connect 6 0 0 0;
